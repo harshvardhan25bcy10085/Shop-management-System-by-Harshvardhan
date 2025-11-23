@@ -54,7 +54,7 @@ def addProd():
     
     #Creating the window
     wn = tkinter.Tk() 
-    wn.title("PythonGeeks Shop Management System")
+    wn.title("VIT Shop Shop Management System")
     wn.configure(bg='mint cream')
     wn.minsize(width=500,height=500)
     wn.geometry("700x600")
@@ -133,7 +133,7 @@ def delProd():
     global prodName, Canvas1,  wn
     #Creating a window
     wn = tkinter.Tk() 
-    wn.title("PythonGeeks Shop Management System")
+    wn.title("VIT Shop Shop Management System")
     wn.configure(bg='mint cream')
     wn.minsize(width=500,height=500)
     wn.geometry("700x600")
@@ -171,7 +171,7 @@ def viewProds():
     global  wn
     #Creating the window to show the products details
     wn = tkinter.Tk() 
-    wn.title("PythonGeeks Shop Management System")
+    wn.title("VIT Shop Shop Management System")
     wn.configure(bg='mint cream')
     wn.minsize(width=500,height=500)
     wn.geometry("700x600")
@@ -220,7 +220,7 @@ def viewProds():
 def bill():
     #Creating a window
     wn = tkinter.Tk() 
-    wn.title("PythonGeeks Shop Management System")
+    wn.title("VIT Shop Shop Management System")
     wn.configure(bg='lavender blush2')
     wn.minsize(width=500,height=500)
     wn.geometry("700x600")
@@ -294,7 +294,7 @@ def newCust():
     global wn,name1,name2,name3,date,custName
     #Creating a window
     wn = tkinter.Tk() 
-    wn.title("PythonGeeks Shop Management System")
+    wn.title("VIT Shop Shop Management System")
     wn.configure(bg='lavender blush2')
     wn.minsize(width=500,height=500)
     wn.geometry("700x600")
@@ -368,14 +368,14 @@ def newCust():
 
 #Creating the mail window
 wn = tkinter.Tk() 
-wn.title("PythonGeeks Shop Management System")
+wn.title("VIT Shop, Shop Management System")
 wn.configure(bg='honeydew2')
 wn.minsize(width=500,height=500)
 wn.geometry("700x600")
 
 headingFrame1 = Frame(wn,bg="snow3",bd=5)
 headingFrame1.place(relx=0.2,rely=0.1,relwidth=0.6,relheight=0.16)
-headingLabel = Label(headingFrame1, text="Welcome to PythonGeeks \n Shop Management System", fg='grey19', font=('Courier',15,'bold'))
+headingLabel = Label(headingFrame1, text="Welcome to VIT Shop \n Shop Management System", fg='grey19', font=('Courier',15,'bold'))
 headingLabel.place(relx=0,rely=0, relwidth=1, relheight=1)
 
 #Button to add a new product
@@ -400,3 +400,4 @@ btn4.place(x=270,y=415)
 
 
 wn.mainloop() 
+
