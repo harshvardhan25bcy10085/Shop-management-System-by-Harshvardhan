@@ -1,14 +1,14 @@
 # Shop Management System
 
-## 📌 Project Title
+##  Project Title
 **Shop Management System (Tkinter + MySQL)**
 
-## 📘 Overview of the Project
+##  Overview of the Project
 This project is a simple GUI-based Shop Management System developed using **Python (Tkinter)** and **MySQL**.  
 It allows shop owners to manage products, generate customer bills, and store sales data.  
 The interface is beginner‑friendly and demonstrates CRUD operations with a database.
 
-## ⭐ Features
+##  Features
 - Add new products  
 - Delete existing products  
 - View all available products  
@@ -16,13 +16,13 @@ The interface is beginner‑friendly and demonstrates CRUD operations with a dat
 - Store sale history in the database  
 - Interactive GUI built with Tkinter
 
-## 🛠️ Technologies / Tools Used
+##  Technologies / Tools Used
 - **Python 3**
 - **Tkinter** (Graphical User Interface)
 - **MySQL Database**
 - **mysql-connector-python** (DB Connector)
 
-## 🏗️ Steps to Install & Run the Project
+##  Steps to Install & Run the Project
 
 ### **1. Install Dependencies**
 ```
@@ -45,7 +45,7 @@ The program automatically creates:
 python shop.py
 ```
 
-## 🧪 Instructions for Testing
+##  Instructions for Testing
 1. Launch the application  
 2. Use **Add Product** to insert sample products  
 3. Use **View Products** to confirm entries  
